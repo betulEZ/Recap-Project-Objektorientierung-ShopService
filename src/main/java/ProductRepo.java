@@ -21,7 +21,7 @@ public class ProductRepo {
                     return Optional.of(product);
             }
         }
-        return Optional.of(null);
+        return Optional.empty();
     }
 
     public Product addProduct(Product newProduct) {
